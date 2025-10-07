@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Select City</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; width: 200px; }
+    select, button { width: 100%; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h3>Choose City</h3>
+  <select id="citySelect">
+    <option value="">-- Select City --</option>
+    <option value="Europe/Berlin" data-flag="https://flagcdn.com/w20/de.png">Berlin</option>
+    <option value="America/New_York" data-flag="https://flagcdn.com/w20/us.png">New York</option>
+    <option value="Asia/Kolkata" data-flag="https://flagcdn.com/w20/in.png">Mumbai</option>
+    <option value="Asia/Tokyo" data-flag="https://flagcdn.com/w20/jp.png">Tokyo</option>
+    <option value="Australia/Sydney" data-flag="https://flagcdn.com/w20/au.png">Sydney</option>
+  </select>
+  <button id="saveBtn">Save</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
